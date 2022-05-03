@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Piedra Papel Tijers</title>
+</head>
+<body>
+  <header><h1>¡Piedra, papel o tijeras!</h1></header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">user</div>
+      <div id="computer-label" class="badge">comp</div>
+      <span id="user-score">0</span> : <span id="computer-score">0</span>
+    </div>
+
+    <div class="result"><p>Paper covers rock. You win!</p></div>
+
+    <div class="choices">
+      <div id="rock" class="choice">
+        <img
+          width="48"
+          height="48"
+          src="https://cdn77.pressenza.com/wp-content/uploads/2017/11/2417C4AC-F2BE-4A94-817A-CFF04360DEE9-720x540.png"  alt="" />
+      </div>
+      <div id="paper" class="choice">
+        <img
+          width="48"
+          height="48"
+          src="https://www.educima.com/dibujo-para-colorear-pila-de-papel-dm13387.jpg"  alt="" />
+      </div>
+      <div id="scissors" class="choice">
+        <img
+          width="48"
+          height="48"
+          src="https://m.media-amazon.com/images/I/511GoPzvGNS._AC_SX425_.jpg"  alt="" />
+      </div>
+
+      <p id="action-message">Make your move.</p>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
